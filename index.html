@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Medical Clinic - Your Health, Our Priority</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Chennai Medical Clinic</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#doctors">Our Doctors</a>
+                <a href="#appointments">Appointments</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Chennai Medical Clinic</h1>
+                <p>Providing Quality Healthcare Services in Chennai Since 1990</p>
+                <a href="#appointments" class="cta-button">Book Appointment</a>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>General Medicine</h3>
+                    <p>Comprehensive medical care for all age groups</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>Specialist Care</h3>
+                    <p>Expert consultation in various specialties</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-notes-medical"></i>
+                    <h3>Diagnostic Services</h3>
+                    <p>State-of-the-art diagnostic facilities</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-ambulance"></i>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency medical services</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="doctors" class="doctors">
+            <h2>Our Expert Doctors</h2>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Doctor 1">
+                    <h3>Dr. Rajesh Kumar</h3>
+                    <p>Cardiologist</p>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Doctor 2">
+                    <h3>Dr. Priya Sharma</h3>
+                    <p>Pediatrician</p>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Doctor 3">
+                    <h3>Dr. Arun Patel</h3>
+                    <p>Orthopedist</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="appointments" class="appointments">
+            <h2>Book an Appointment</h2>
+            <div class="appointment-form">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="">Select Department</option>
+                        <option value="general">General Medicine</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="pediatrics">Pediatrics</option>
+                        <option value="orthopedics">Orthopedics</option>
+                    </select>
+                    <input type="date" required>
+                    <textarea placeholder="Additional Notes"></textarea>
+                    <button type="submit" class="cta-button">Book Now</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Medical Street, Anna Nagar, Chennai - 600040</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 44 1234 5678</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@chennaimedicalclinic.com</p>
+                    </div>
+                </div>
+                <div class="contact-hours">
+                    <h3>Working Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 8:00 PM</p>
+                    <p>Saturday: 9:00 AM - 2:00 PM</p>
+                    <p>Sunday: Emergency Services Only</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Chennai Medical Clinic</h3>
+                <p>Your trusted healthcare partner in Chennai</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#doctors">Doctors</a>
+                <a href="#appointments">Appointments</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Chennai Medical Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
